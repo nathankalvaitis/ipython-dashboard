@@ -8,11 +8,11 @@ Output:
 Quick EDA.ipynb - initial loading and review of data. Developed dataset to do more discovery in Tableau (ease/familiarity of use)
 
 
-[Tableau Dashboard](https://public.tableau.com/app/profile/nathan.kalvaitis/viz/CaseStudy-TableauDashboardPowerUsageTrends/CaseStudy-ActualvsForecastedPowerUsage?publish=yes) - Quick look at a sample dashboard, utilized to understand data structure and trends at high level. Included dynamic comparisons vs prior week average, prior six week median, min, and max.
+[Tableau Dashboard](https://public.tableau.com/app/profile/nathan.kalvaitis/viz/CaseStudy-TableauDashboardPowerUsageTrends/CaseStudy-ActualvsForecastedPowerUsage?publish=yes) - Dashboard utilized to understand data structure and trends at high level. Included dynamic comparisons vs prior week average, prior six week median, min, and max. Included placeholder for vs forecast.
 
 ![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/7eb8b525-72a7-4ce5-a1ce-cb1c332604ad)
 
-Proof of Concept.ipynb - Dynamic Proof of Concept to retrain model and update displayed metrics based on user selections. Lots of bugs still exist related to filtering on day of week - hour - load type. The bugs are related to breaking the date indices when training the model. estimated ~8 hours to update and debug those
+Proof of Concept.ipynb - Dynamic Proof of Concept to retrain model and update metrics based on user selections. Bugs exist related to filtering on day of week - hour - load type. The bugs are related to breaking the date indices when training the model.
 
 ![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/60b49fa0-3a34-40da-801a-5f468a6df754)
 
