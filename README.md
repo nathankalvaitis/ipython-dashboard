@@ -1,4 +1,7 @@
-# Nathan Kalvaitis Case Study
+# [Nathan Kalvaitis Case Study](https://docs.google.com/presentation/d/1g7-OlPXbN4QKMoYPYyzDqaE_bhCguX8PUKCUh_a1N8w/edit#slide=id.g2be7f407783_0_60)
+
+
+
 Goal: Predict future day electricity usage (as measured in kWh) based on historical data utilizing analysis and Holt-Winters forecasting. Holt-Winters was chosen as it incorporates seasonality. Additional ARIMA models were tested but ultimately thrown out for proof of concept. 
 
 Method: Explore data through python and Tableau, develop dynamic dashboard to update model parameters using ipython widgets. Dynamically update aggregates and retrain model based on dynamic user selections
