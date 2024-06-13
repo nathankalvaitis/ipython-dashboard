@@ -12,7 +12,7 @@ Quick EDA.ipynb - initial loading and review of data. Developed dataset to do mo
 
 ![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/7eb8b525-72a7-4ce5-a1ce-cb1c332604ad)
 
-Proof of Concept.ipynb [View on Google Colab](https://colab.research.google.com/drive/1SnF-YWW2PN27cgo8dkEtYHFfp_2kWdMa) - Dynamic Proof of Concept to retrain model and update metrics based on user selections. Bugs exist related to filtering on day of week - hour - load type. The bugs are related to breaking the date indices when training the model.
+Proof of Concept.ipynb [View on Google Colab](https://colab.research.google.com/drive/1SnF-YWW2PN27cgo8dkEtYHFfp_2kWdMa) - Dynamic Proof of Concept to retrain model and update metrics based on user selections. 
 ![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/41fbc23f-ecf5-466e-81ff-b54264ff9977)
 
 ![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/60b49fa0-3a34-40da-801a-5f468a6df754)
@@ -20,7 +20,7 @@ Proof of Concept.ipynb [View on Google Colab](https://colab.research.google.com/
 
 # Utilizing Proof of Concept
 
-Various widgets are created for selecting the training and test periods, days of the week, hours of the day, and load types to include. Currently, the model is only refit based on the different selections for the training and test period. Additional debugging would be required to refit Holt-Winters prediction model after removal of certain days or hours of the day.
+Various widgets are created for selecting the training and test periods, days of the week, hours of the day, and load types to include. Bugs exist related to filtering on day of week - hour - load type. The bugs are related to breaking the date indices when training the model. Currently, the model is only refit based on the different selections for the training and test period.
 
 Interactive Interface:
 
