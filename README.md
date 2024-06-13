@@ -22,7 +22,8 @@ Quick EDA.ipynb - initial loading and review of data. Developed dataset to do mo
 Proof of Concept.ipynb [View on Google Colab](https://colab.research.google.com/drive/1SnF-YWW2PN27cgo8dkEtYHFfp_2kWdMa) - Dynamic Proof of Concept to retrain model and update metrics based on user selections. 
 ![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/41fbc23f-ecf5-466e-81ff-b54264ff9977)
 
-![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/60b49fa0-3a34-40da-801a-5f468a6df754)
+![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/a3e8987a-8e65-4c6b-9826-2836e53dfb4b)
+
 
 
 # Utilizing Proof of Concept
