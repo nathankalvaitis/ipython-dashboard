@@ -7,37 +7,22 @@ Output:
 
 Quick EDA.ipynb - initial loading and review of data. Developed dataset to do more discovery in Tableau (ease/familiarity of use)
 
-Dynamic Modeling.ipynb - Dynamic ipy Proof of Concept to recalculate aggregate metrics, regraph metrics, and dynamically predict future 
 
-# Files
-Quick EDA.ipynb - initial loading and review of data. Developed dataset to do more discovery in Tableau (ease/familiarity of use)
-Dynamic Modeling.ipynb - Dynamic ipy Proof of Concept to recalculate aggregate metrics, regraph metrics, and dynamically predict future 
-Data Preparation:
+[Tableau Dashboard](https://public.tableau.com/app/profile/nathan.kalvaitis/viz/CaseStudy-TableauDashboardPowerUsageTrends/CaseStudy-ActualvsForecastedPowerUsage?publish=yes) - Quick look at a sample dashboard, utilized to understand data structure and trends at high level. Included dynamic comparisons vs prior week average, prior six week median, min, and max.
 
-The data is loaded from a CSV file downloaded from https://www.kaggle.com/datasets/csafrit2/steel-industry-energy-consumption/data
+![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/7eb8b525-72a7-4ce5-a1ce-cb1c332604ad)
 
-Widgets:
+Proof of Concept.ipynb - Dynamic Proof of Concept to retrain model and update displayed metrics based on user selections. Lots of bugs still exist related to filtering on day of week - hour - load type. The bugs are related to breaking the date indices when training the model. estimated ~8 hours to update and debug those
 
-Various widgets are created for selecting the training and test periods, days of the week, hours of the day, and load types.
-Filtering and Plotting Function:
+![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/60b49fa0-3a34-40da-801a-5f468a6df754)
 
-The filter_and_plot function filters the data based on the widget selections.
-The Holt-Winters model is fitted to the training data and predictions are made for the test period.
-Predictions are filtered similarly to the test data.
-Error metrics and overall statistics are calculated and printed.
-The results are visualized in a 2x2 grid of plots, including:
-Training, Actual, and Predicted Usage.
-Zoomed-in view of Actual vs Predicted Usage.
-Mean Forecast Error by Hour.
-Sum of Usage by Day of the Week and Hour of the Day.
+
+# Utilizing Proof of Concept
+
+Various widgets are created for selecting the training and test periods, days of the week, hours of the day, and load types to include. Currently, the model is only refit based on the different selections for the training and test period. Additional debugging would be required to refit Holt-Winters prediction model after removal of certain days or hours of the day.
+
 Interactive Interface:
 
 The interactive_output function is used to create an interactive interface for the widgets and the filtering/plotting function.
-The widgets and interactive output are displayed.
-Example Output
-After running the script and interacting with the widgets, you will see various plots and statistics, including:
+The widgets and interactive output are displayed. The displays should update any time that selections are changed - added a dummy button for now as placehold for what could be
 
-Training, Actual, and Predicted Usage with overall statistics as reference lines.
-Zoomed-in view of Actual vs Predicted Usage.
-Mean Forecast Error by Hour.
-Heatmap showing the sum of Usage by Day of the Week and Hour of the Day.
