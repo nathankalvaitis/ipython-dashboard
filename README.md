@@ -1,4 +1,5 @@
-# [Nathan Kalvaitis Case Study](https://docs.google.com/presentation/d/1g7-OlPXbN4QKMoYPYyzDqaE_bhCguX8PUKCUh_a1N8w/edit#slide=id.g2be7f407783_0_60)
+# [Nathan Kalvaitis Case Study](https://docs.google.com/presentation/d/1g7-OlPXbN4QKMoYPYyzDqaE_bhCguX8PUKCUh_a1N8w/edit#slide=id.g2be7f407783_0_60) click to view in Google Slides
+![image](https://github.com/nathankalvaitis/ipython-dashboard/assets/31044210/7083b4a6-8cd2-433f-b5b3-750a97f96e9b)
 
 
 
